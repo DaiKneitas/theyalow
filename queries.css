@@ -1,0 +1,518 @@
+/* BELOW 1100px 
+*****************************/
+@media (max-width: 68.75em) {
+  .main-header-container {
+    justify-content: space-between;
+  }
+
+  .btn-arrow {
+    display: none;
+  }
+
+  .twitter-icon {
+    height: 40%;
+  }
+}
+
+/* BELOW 900px 
+*****************************/
+@media (max-width: 56.25em) {
+  .slider-container {
+    display: none;
+  }
+
+  .icons-container-1020,
+  .parrots-container-1300,
+  .parrots-container-1020,
+  .monkey-grid-container,
+  .list-container,
+  .footer-container {
+    max-width: 70rem;
+  }
+}
+
+/* BELOW 640px 
+*****************************/
+@media screen and (max-width: 40em) {
+  .main-header-container {
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+  }
+
+  .section-parrots {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .section-icons {
+  }
+
+  .section-monkey-video {
+    background-image: none;
+  }
+
+  .icons-container-1020,
+  .parrots-container-1300,
+  .parrots-container-1020,
+  .monkey-grid-container,
+  .list-container,
+  .footer-container {
+    max-width: 64rem;
+  }
+
+  .theyalow-logo-container {
+    background-image: url(assets/images/mobile-header-background.png);
+    background-size: cover;
+    height: 6rem;
+    flex: 1;
+
+    padding: 1rem 1.2rem 1rem 1.2rem;
+  }
+
+  .theyalow-logo-back {
+    height: 3.7rem;
+    width: 3.8rem;
+  }
+
+  .theyalow-logo-front {
+    height: 3.9rem;
+    width: 4rem;
+    margin-left: -4rem;
+  }
+
+  .theyalow-text {
+    font-size: 1.9rem;
+  }
+
+  .main-nav-link {
+    height: 6rem;
+    padding: 0;
+  }
+
+  .main-nav {
+    box-shadow: none;
+  }
+
+  .parrots-container-1020 {
+    display: block;
+    gap: 0;
+    padding-bottom: 0;
+  }
+
+  .parrots-video-container {
+    max-height: 38.2rem;
+    max-width: 64rem;
+  }
+
+  .parrots-video {
+    display: none;
+  }
+
+  .parrots-video-mobile {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .icons-container-1020 {
+    height: 17.1rem;
+  }
+
+  .icons-containers {
+    border: none;
+  }
+
+  .better-design-icon {
+    height: 6.2rem;
+  }
+
+  .customise-icon,
+  .its-free-icon {
+    height: 7rem;
+  }
+
+  .icons-text {
+    font-size: 2rem;
+  }
+
+  .icons-left,
+  .icons-middle,
+  .icons-right {
+    padding-bottom: 3.1rem;
+  }
+
+  .monkey-grid-container {
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 23.3rem 1fr;
+    height: 46.6rem;
+  }
+
+  .monkey-text-column {
+    padding: 10px 5px;
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 5px solid #fff;
+  }
+
+  .monkey-text {
+    display: none;
+  }
+
+  .monkey-text-mobile {
+    display: block;
+    padding: 0 30px 5px 31px;
+    font-family: "Segoe WP";
+    font-weight: 300;
+    font-style: normal;
+    font-size: 29px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    line-height: 1.2;
+    letter-spacing: 0.3px;
+    text-size-adjust: auto;
+  }
+
+  .monkey-video-column {
+    grid-column: 2;
+    grid-row: 1;
+    border: 5px solid #fff;
+    border-left: none;
+  }
+
+  .monkey-twitter-column {
+    display: flex;
+    grid-column: 1 / -1;
+    grid-row: 2;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0;
+    background-color: #f5c507;
+  }
+
+  .twitter-22,
+  .twitter-plus,
+  .list,
+  .april-25-container,
+  .heading-monkey,
+  .header-secondary {
+    display: none;
+  }
+
+  .twitter-comments-container {
+    display: block;
+  }
+
+  .twitter-comments-list {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    list-style: none;
+    margin-right: 1.3rem;
+  }
+
+  .twitter-comments-list li {
+    margin-bottom: 1.3rem;
+  }
+
+  .twitter-comment-icon {
+    display: inline-block;
+    fill: #fff;
+    /* height: 2.8rem; */
+    width: 24rem;
+  }
+
+  .twitter-comment-img {
+  }
+
+  .twitter-com-1 {
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    z-index: 3;
+  }
+
+  .twitter-com-2 {
+    position: absolute;
+    top: 55px;
+    left: 15px;
+    z-index: 3;
+  }
+
+  .twitter-com-3 {
+    position: absolute;
+    top: 105px;
+    left: 15px;
+    z-index: 3;
+  }
+
+  .tweet-2 {
+    opacity: 70%;
+  }
+
+  .tweet-3 {
+    opacity: 60%;
+  }
+
+  .twitter-form {
+    display: flex;
+  }
+
+  .twitter-icon {
+    display: inline-block;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 13.3rem;
+    margin-left: 8.5rem;
+  }
+
+  .tweet-input {
+    display: block;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #8f8e8e;
+    width: 68%;
+    height: 3.1rem;
+    border: 1px solid #d0a806;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-right: 0;
+    padding-left: 5px;
+    box-shadow: inset 0px 6px 6px 0px rgb(0 0 0 / 10%);
+  }
+
+  .tweet-btn {
+    width: 24%;
+    font-family: Arial, sans-serif;
+    font-size: 15.5px;
+    color: rgb(255, 255, 255);
+    flex-grow: 1;
+    padding-right: 8px;
+    padding-top: 1px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: 1px solid #d0a806;
+    background: linear-gradient(#e4b351, #d49210);
+    cursor: pointer;
+  }
+
+  .list-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    gap: 4rem;
+  }
+
+  .heading-list {
+    padding: 4.2rem 2rem;
+  }
+
+  .list-section-pc-img {
+    grid-column: 1;
+    grid-row: 2;
+    width: 50%;
+    margin-left: 5.5rem;
+  }
+
+  .list-section-tablet-img {
+    grid-column: 1;
+
+    grid-row: 2;
+  }
+
+  .list-section-mobile-img {
+    grid-column: 1;
+
+    grid-row: 2;
+  }
+
+  .free-banner {
+    top: 140px;
+    left: 27px;
+  }
+
+  .footer-container {
+    height: 5rem;
+  }
+
+  .footer-container .theyalow-logo-container {
+    padding: 0;
+    height: 5rem;
+  }
+
+  .footer-container .theyalow-logo-front {
+    margin-left: -3.88rem;
+    height: 3.3rem;
+  }
+
+  .footer-container .theyalow-logo-back {
+    height: 3.1rem;
+    margin-left: 5.4rem;
+  }
+
+  .footer-container .theyalow-text {
+    font-size: 1.7rem;
+  }
+}
+
+/* BELOW 630px 
+*****************************/
+@media (max-width: 39.375em) {
+  .free-banner {
+    top: 175px;
+  }
+}
+
+/* BELOW 620px 
+*****************************/
+@media screen and (max-width: 38.75em) {
+  .monkey-text-mobile {
+    font-size: 2rem;
+  }
+}
+
+/* BELOW 560px 
+*****************************/
+@media (max-width: 35em) {
+  .monkey-text-mobile {
+    font-size: 1.7rem;
+    line-height: 1.2;
+  }
+
+  .better-design-icon {
+    height: 5.2rem;
+  }
+
+  .customise-icon,
+  .its-free-icon {
+    height: 6rem;
+  }
+
+  .icons-text {
+    font-size: 1.6rem;
+  }
+
+  .main-nav-text {
+    font-size: 1.2rem;
+  }
+
+  .main-nav-link {
+    padding: 0;
+  }
+
+  .twitter-icon {
+    height: 6.3rem;
+    margin-left: 0;
+  }
+
+  .list-section-pc-img {
+    height: 191.25px;
+    width: 243.75px;
+    margin-left: 15px;
+  }
+  .list-section-tablet-img {
+    height: 129.75px;
+    width: 96.75px;
+  }
+
+  .list-section-mobile-img {
+    height: 47.25px;
+    width: 29.25px;
+  }
+
+  .free-banner {
+    left: 0;
+  }
+}
+
+/* BELOW 460px 
+*****************************/
+@media (max-width: 28.75em) {
+  /* html {
+    font-size: 50%;
+  } */
+
+  .main-header-container {
+  }
+
+  header .theyalow-text {
+    /* display: none; */
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    padding: 5px 5px;
+  }
+  .monkey-text-mobile {
+    font-size: 1.4rem;
+    line-height: 1.2;
+    padding: 0;
+  }
+
+  .better-design-icon {
+    height: 4.7rem;
+  }
+
+  .customise-icon,
+  .its-free-icon {
+    height: 5.5rem;
+  }
+
+  .list-section-pc-img {
+    height: 159px;
+    width: 203px;
+    margin-left: 5px;
+  }
+  .list-section-tablet-img {
+    height: 108px;
+    width: 80px;
+    margin-left: 3px;
+  }
+
+  .list-section-mobile-img {
+    height: 39px;
+    width: 24px;
+    margin-left: 3px;
+  }
+
+  .free-banner {
+    top: 200px;
+  }
+}
+
+/* BELOW 360px 
+*****************************/
+@media (max-width: 22.5em) {
+  .list-section-pc-img {
+    height: 127.5px;
+    width: 162.5px;
+    margin-left: 35px;
+  }
+  .list-section-tablet-img {
+    height: 86.5px;
+    width: 64.5px;
+  }
+
+  .list-section-mobile-img {
+    height: 31.5px;
+    width: 19.5px;
+  }
+
+  .main-nav-text {
+    font-size: 50%;
+  }
+
+  .theyalow-logo-container {
+    width: 25%;
+  }
+
+  .free-banner {
+    top: 220px;
+  }
+}
